@@ -1,0 +1,26 @@
+.w-layout-layout {
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    grid-auto-columns: 1fr;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .w-layout-cell {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+  }
+  
+  .body {
+    background-image: url('../images/EarthBG.jpg');
+    background-position: 0 0;
+    background-size: auto;
+  }
+  
+  #w-node-f83c73d8-bf19-3188-d5e1-3f0fc8cd40b6-05eb8293 {
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+  }
+  
